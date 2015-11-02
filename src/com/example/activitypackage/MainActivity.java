@@ -1,4 +1,7 @@
-package com.example.pengpengcheungtest;
+package com.example.activitypackage;
+
+import com.example.pengpengcheungtest.R;
+
 
 import android.os.Bundle;
 import android.app.Activity;

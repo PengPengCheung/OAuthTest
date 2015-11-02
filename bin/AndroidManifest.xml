@@ -19,11 +19,11 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.pengpengcheungtest.WBAuthActivity"
+            android:name="com.example.activitypackage.WBAuthActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+				
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -33,7 +33,11 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" >
         </activity>
-        <activity android:name="MainActivity"></activity>
+        <activity android:name="com.example.activitypackage.MainActivity">
+            <intent-filter>
+                 <action   android:name = "android.intent.action.DEFAULT"  />
+             </intent-filter>
+        </activity>
     </application>
 
 </manifest>
