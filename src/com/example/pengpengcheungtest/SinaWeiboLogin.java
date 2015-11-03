@@ -77,6 +77,7 @@ private static final String TAG = "weibosdk";
     }
     
     public void startIntent(Context from, String toClassName){
+    	/*需要传入类名*/
     	/*可在清单文件中配置intent filter,也可以不配置*/
     	Intent intent = new Intent();
     	intent.setClassName(from, toClassName);

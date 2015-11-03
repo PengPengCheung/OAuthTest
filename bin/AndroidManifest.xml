@@ -35,6 +35,7 @@
         </activity>
         <activity android:name="com.example.activitypackage.MainActivity">
             <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
                  <action   android:name = "android.intent.action.DEFAULT"  />
              </intent-filter>
         </activity>
